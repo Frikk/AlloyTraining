@@ -34,6 +34,14 @@ namespace AlloyTraining.Models.Pages
         public virtual XhtmlString MainBody { get; set; }
 
         [CultureSpecific]
+        [Display(Name = "Main content area",
+                Description = "The main content area",
+                Order = 30,
+                GroupName = SystemTabNames.Content)]
+        [AllowedTypes(typeof(StandardPage), typeof(BlockData), typeof(ImageData))]
+        public virtual ContentArea MainContentArea { get; set; }
+
+        [CultureSpecific]
         [Display(Name = "Footer text",
                 GroupName = SiteTabNames.SiteSettings,
                 Order = 100)]
