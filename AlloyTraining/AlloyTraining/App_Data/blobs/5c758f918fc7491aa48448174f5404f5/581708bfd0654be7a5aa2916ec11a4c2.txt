@@ -1,0 +1,34 @@
+EPiServer 7 CMS – Oppgave
+Alloy Reach-siden
+Sidens navn
+Gi siden følgende navn
+Alloy Reach
+Beskrivelse av siden
+Legg til følgende tekst som ingress på siden:
+Alloy Reach hjelper deg med å distribuere informasjon via en tjeneste som tilbys via vårt samarbeid med Global Tech.
+Hovedinnhold
+Legg til følgende tekst som hovedinnhold på siden:
+Alloy Reach er et revolusjonerende nytt product som gir umiddelbar distribusjon til alle medlemmer i prosjektgruppen. 
+Gjennom vårt samarbeid med Global Tech bryter denne tjenesten ned grensene, samtidig som den sender informasjonen som dine gruppemedlemmer behøver uansett hvor de befinner seg. Tidssoner er ikke lenger et problem.
+Sikkerhet er førsteprioritet, og våre standarder er svært høye og bygget direkte i produktet slik at selskapets interne tilganger aldri er i fare. 
+Les mer
+Last ned faktaark nå.
+Andre Alloy produkter
+Alloy Plan
+Alloy Track
+Alloy Meet
+Om oss
+Kontakt oss for mer informasjon.
+ 
+White Paper Page
+Sidens navn
+Gi siden følgende navn:
+White paper
+Beskrivelse av siden
+Legg til følgende tekst som ingress på siden.
+Umiddelbar distribusjon til alle medlemmer av din prosjektgruppe!
+Hovedinnhold
+Legg til følgende tekst som hovedinnhold på siden:
+Alloy Reach er det siste produktet i produktspekteret til Alloy, og lar deg optimalisere ”outreach” til alle dine kunder.
+For en tidsbegrenset periode kommer produktet til å være tilgjengelig gratis for utprøving. Gi det et forsøk, og se hvordan det smidig og umiddelbart sprer informasjon.
+Les mer om produktet ved å laste ned faktaarket.

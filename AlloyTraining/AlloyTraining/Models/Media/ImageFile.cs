@@ -14,5 +14,9 @@ namespace AlloyTraining.Models.Media
         [CultureSpecific]
         [Editable(true)]
         public virtual string Description { get; set; }
+
+        [CultureSpecific]
+        [Editable(true)]
+        public virtual string AlternativeText { get; set; }
     }
 }

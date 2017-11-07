@@ -1,1 +1,5 @@
-﻿--- Image rendered as text in DisplayTemplates/Image.cshtml ---
+﻿@model EPiServer.Core.ContentReference
+    
+@if(Model != null) {
+    <img src="@Url.ContentUrl(Model)" alt=""/>
+}
