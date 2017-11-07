@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 namespace AlloyTraining
 {
     [GroupDefinitions]
-    public class SiteTabNames
+    public static class SiteTabNames
     {
         [Display(Order = 10)]
         [RequiredAccess(AccessLevel.Edit)]

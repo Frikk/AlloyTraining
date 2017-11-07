@@ -4,6 +4,7 @@ using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
 using EPiServer.SpecializedProperties;
+using EPiServer.Web;
 
 namespace AlloyTraining.Models.Pages
 {
@@ -20,6 +21,10 @@ namespace AlloyTraining.Models.Pages
                 GroupName = SystemTabNames.Content,
                 Order = 10)]
         public virtual string Heading { get; set; }
+
+        
+        [UIHint(UIHint.Image)]
+        public virtual ContentReference Image { get; set; }
 
         [CultureSpecific]
         [Display(Name = "Main body",
