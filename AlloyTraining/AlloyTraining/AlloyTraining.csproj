@@ -264,6 +264,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Blocks\EditorialBlock.cs" />
     <Compile Include="Models\Media\AnyFile.cs" />
     <Compile Include="Models\Media\ImageFile.cs" />
     <Compile Include="Models\Pages\ProductPage.cs" />
@@ -279,7 +280,6 @@
     <Compile Include="SiteTags.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\Blocks\" />
     <Folder Include="Models\Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -359,6 +359,7 @@
     <Content Include="Views\Shared\Full.cshtml" />
     <Content Include="Views\Shared\Wide.cshtml" />
     <Content Include="Views\Shared\Narrow.cshtml" />
+    <Content Include="Views\Shared\EditorialBlock.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
