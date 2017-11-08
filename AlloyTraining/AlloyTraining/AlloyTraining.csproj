@@ -246,12 +246,17 @@
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ItemGroup>
+    <Compile Include="Business\Channels\AppleWatch.cs" />
     <Compile Include="Business\ExtensionMethods\ContentExtensions.cs" />
     <Compile Include="Business\ExtensionMethods\HtmlHelperExtensions.cs" />
     <Compile Include="Business\ExtensionMethods\MiscExtensions.cs" />
     <Compile Include="Business\ExtensionMethods\StartPageHtmlHelperExtensions.cs" />
+    <Compile Include="Business\Initialization\DisplayOptionsInitializeModule.cs" />
     <Compile Include="Business\Initialization\RegisterAdminInitializationModule.cs" />
+    <Compile Include="Controllers\AllPagesWidePartialController.cs" />
+    <Compile Include="Controllers\AllPagesNarrowPartialController.cs" />
     <Compile Include="Controllers\PageControllerBase.cs" />
+    <Compile Include="Controllers\AllPagesFullPartialController.cs" />
     <Compile Include="Controllers\ProductPagePartialController.cs" />
     <Compile Include="Controllers\ProductPageController.cs" />
     <Compile Include="Controllers\StandardPageController.cs" />
@@ -271,6 +276,7 @@
     <Compile Include="SiteContentIcons.cs" />
     <Compile Include="SiteGroupNames.cs" />
     <Compile Include="SiteTabNames.cs" />
+    <Compile Include="SiteTags.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\Blocks\" />
@@ -281,6 +287,7 @@
     <Content Include="modules\_protected\MenuPin\ClientResources\Scripts\MenuPin\MenuPinForFind.js" />
     <Content Include="modules\_protected\MenuPin\ClientResources\Scripts\MenuPin\MenuPinInit.js" />
     <Content Include="Resources\LanguageFiles\ContentTypes.xml" />
+    <Content Include="Resources\LanguageFiles\DisplayOptions.xml" />
     <Content Include="Static\contenticons\epi-edu-icon-block.jpg" />
     <Content Include="Static\contenticons\epi-edu-icon-commerce.jpg" />
     <Content Include="Static\contenticons\epi-edu-icon-container.jpg" />
@@ -349,6 +356,9 @@
     <Content Include="Views\Shared\_NavigationMenu.cshtml" />
     <Content Include="Views\ProductPagePartial\Index.cshtml" />
     <Content Include="Views\Shared\ImageFile.cshtml" />
+    <Content Include="Views\Shared\Full.cshtml" />
+    <Content Include="Views\Shared\Wide.cshtml" />
+    <Content Include="Views\Shared\Narrow.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
